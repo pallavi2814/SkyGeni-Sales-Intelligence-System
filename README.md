@@ -9,7 +9,7 @@ The objective is NOT to build complex ML models but to design a decision intelli
 - What factors drive success or failure
 - What actions sales leadership should take
 # Business Problem Framing
-# Core Problem
+## Core Problem
 Revenue predictability is declining because win rate performance is inconsistent across segments.
 
 Leadership lacks:
@@ -17,30 +17,30 @@ Leadership lacks:
 - Driver-level analysis
 - Actionable recommendations
 
-# Key Questions for CRO
+## Key Questions for CRO
 - Which regions or products have declining performance?
 - Which lead sources generate low-quality pipeline?
 - Are certain reps or industries underperforming?
 - Is long sales cycle hurting conversion?
 
-# Metrics That Matter
+## Metrics That Matter
 - Win Rate
 - Sales Cycle Duration
 - Deal Velocity
 - Rep Performance Consistency
 
-# Assumptions
+## Assumptions
 - Data is historically accurate
 - Sales stages are standardized
 - Outcome labels are reliable
 - Closed deals reflect final truth
 # Data Exploration & Insights
-# Insight Examples
+## Insight Examples
 1. Regional performance differences
 2. Product-driven win variation
 3. Lead source quality gaps
 
-# Custom Metrics
+## Custom Metrics
 1. Sales Velocity Score
 2. Rep Win Consistency Index
 
@@ -49,7 +49,7 @@ Business Impact:
 - Improve pipeline quality
 - Focus enablement resources
 
-# Decision Engine
+## Decision Engine
 
 Selected Approach: **Win Rate Driver Analysis**
 
@@ -67,21 +67,21 @@ Outputs:
 
 # Mini System Design
 
-# Architecture
+## Architecture
 Data Source → ETL → Feature Engineering → Decision Engine → Insights Dashboard → Alerts
 
-# Data Flow
+## Data Flow
 CRM → Data Pipeline → Analytics Engine → Executive Reporting
 
-# Example Alerts
+## Example Alerts
 - "Win rate dropped 15% in APAC"
 - "Lead source X producing low conversions"
 - "Product Y losing deals in finance industry"
 
-# Execution Frequency
+## Execution Frequency
 Daily automated analysis
 
-# Failure Risks
+## Failure Risks
 - Missing CRM fields
 - Incorrect stage updates
 - Small sample bias
@@ -103,6 +103,3 @@ Next 30-Day Improvements:
 
 Lowest Confidence Area:
 - Lead source attribution accuracy
-
-
-### Install Dependencies
